@@ -1,0 +1,36 @@
+body {
+	font-family: "Roboto", Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: center;	
+}
+
+#tile_input {
+	width: 525px;
+	height: 240px;
+}
+
+#preview {
+	width: 100%;
+	height: 210px;
+	overflow: hidden;
+	text-align:center;
+}
+
+#tile_canvas {
+	transform-origin: 50% 0;
+	transform: scale(0.5);
+}
+
+a {
+	display: inline-block;
+	padding: 0.5em 1em;
+	color: #000;
+	font-size: 80%;
+	line-height: 0.9em;
+	margin: 1em;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 1px solid #886600;
+	background-color: #FFcc00;
+	border-radius: 0.5em;	
+}
